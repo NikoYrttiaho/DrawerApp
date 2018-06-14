@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kuva1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bmw" />
+        <item
+            android:id="@+id/nav_kuva2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ferrari" />
+        <item
+            android:id="@+id/nav_kuva3"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Lada" />
+        <item
+            android:id="@+id/nav_kuva4"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Lambo" />
+        <item
+            android:id="@+id/nav_kuva5"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="merzedes-benz" />
+    </group>
+
+    <item android:title="Communicate">
+    <menu>
+
+    </menu>
+</item>
+
+</menu>
